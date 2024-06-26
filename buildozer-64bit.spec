@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = Mortgage Calculator
+title = zadaniaEF
 
 # (str) Package name
-package.name = mortgagecalculator
+package.name = zadaniaEF
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.wiseplat
@@ -36,7 +36,7 @@ version = 2.3
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.0.0,kivymd,https://github.com/kivymd/KivyMD/archive/3274d62.zip,sdl2_ttf==2.0.15
+requirements = python3,kivy==2.3.0,kivymd,https://github.com/kivymd/KivyMD/archive/3274d62.zip,sdl2_ttf==2.0.15,sqlite3,pandas
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -65,7 +65,7 @@ orientation = all
 osx.python_version = 3
 
 # Kivy version to use
-osx.kivy_version = 2.0.0
+osx.kivy_version = 2.3.0
 
 #
 # Android specific
